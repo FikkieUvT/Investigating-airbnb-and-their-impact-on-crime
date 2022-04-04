@@ -4,6 +4,7 @@
 
 #Download the data of Inside Airbnb in Amsterdam.
 airbnb_listings <- read.csv("http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2021-12-05/visualisations/listings.csv")
+head(airbnb_listings)
 
 #Creates the directory 'temp-data/raw' within the repository by creating the folder 'temp-data' and the folder 'raw' within it.
 dir.create('../../temp-data')
